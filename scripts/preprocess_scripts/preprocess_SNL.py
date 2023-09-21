@@ -7,6 +7,10 @@ import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
 
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+
 from src import BatteryData, CycleData, CyclingProtocol
 
 
